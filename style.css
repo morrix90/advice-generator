@@ -72,7 +72,18 @@ button {
   }
 
 
-  @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 80%;
+        height: 70vh;
+    }
+    .advice img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
     .container {
         width: 80%;
         height: 70vh;
