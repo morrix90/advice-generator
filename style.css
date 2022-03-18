@@ -75,7 +75,7 @@ button {
   @media only screen and (max-width: 375px) {
     .container {
         width: 80%;
-        height: 60vh;
+        height: 70vh;
     }
     .advice img {
         width: 100%;
