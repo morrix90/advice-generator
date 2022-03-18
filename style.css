@@ -48,6 +48,8 @@ body {
     letter-spacing: 3px;
 }
 
+
+
 .advice-text {
     font-size: 28px;
 }
@@ -68,3 +70,14 @@ button {
     all: unset;
     cursor: pointer;
   }
+
+
+  @media only screen and (max-width: 375px) {
+    .container {
+        width: 80%;
+        height: 70vh;
+    }
+    .advice img {
+        width: 100%;
+    }
+}
